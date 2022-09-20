@@ -1,7 +1,7 @@
 {
-  "name": "AltStore",
-  "identifier": "com.rileytestut.AltStore",
-  "sourceURL": "https://cdn.altstore.io/file/altstore/apps.json",
+  "name": "jaydenridley4's AltStore source",
+  "identifier": "com.jaydenridley4.altstore",
+  "sourceURL": "https://jaydenridley4.ml/altstore.json",
   "apps": [
     {
       "name": "Enmity",
@@ -14,11 +14,11 @@
       "localizedDescription": "The power of addons, all in your hand.",
       "iconURL": "https://jaydenridley4.ml/altstore-icons/enmity.png",
       "tintColor": "018084",
-      "size": 5465976,
+      "size": 76659846,
       "screenshotURLs": [
-        "http://10.0.0.127/photos/enmity/1.PNG",
-        "http://10.0.0.127/photos/enmity/2.PNG",
-        "http://10.0.0.127/photos/enmity/3.PNG"
+        "https://jaydenridley4.ml/photos/enmity/1.PNG",
+        "https://jaydenridley4.ml/photos/enmity/2.PNG",
+        "https://jaydenridley4.ml/photos/enmity/3.PNG"
       ],
       "permissions": [
         {
