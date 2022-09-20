@@ -12,13 +12,13 @@
       "versionDescription": "Updated Discord to v144",
       "downloadURL": "http://10.0.0.127/ipas/enmity.ipa",
       "localizedDescription": "The power of addons, all in your hand.",
-      "iconURL": "http://10.0.0.127/icons/enmity.png",
+      "iconURL": "http://10.0.0.127/altstore-icons/enmity.png",
       "tintColor": "018084",
       "size": 5465976,
       "screenshotURLs": [
-        "http://10.0.0.5/photos/enmity/1.PNG",
-        "http://10.0.0.5/photos/enmity/2.PNG",
-        "http://10.0.0.5/photos/enmity/3.PNG"
+        "http://10.0.0.127/photos/enmity/1.PNG",
+        "http://10.0.0.127/photos/enmity/2.PNG",
+        "http://10.0.0.127/photos/enmity/3.PNG"
       ],
       "permissions": [
         {
