@@ -1,0 +1,34 @@
+function populateSSID() {
+	var ajaxUrl = "/hp-pps-services/ssid/generateSSID";
+
+	$.ajax({
+		type : "GET",
+		url : ajaxUrl,
+		async : false,
+		success : function(data) {
+			ssidGenerated = true;
+			console.log("generateSSID: " + data);
+			$('#sids').html('');
+			$('#sids').html(data);
+			console.log("ssid obj modified: " +  $('#sids').html());
+			var stateObj = {
+				"name": "sidHtml",
+				"innerhtml": $('#sids').html()
+			};
+		    window.history.pushState(stateObj, "");
+		},
+		error : function(data) {
+			console.log("generateSSID error: " + data);
+		}
+	});
+}
+
+$(document).ready(function(event){
+	if (!!window.performance && window.performance.navigation.type === 2) {
+        // value 2 means "The page was accessed by navigating into the history"
+        var currentState = history.state;
+        if(currentState != null && currentState.name != null && currentState.name == "sidHtml"){
+        	$('#sids').html(currentState.innerhtml);
+        }
+	}
+});

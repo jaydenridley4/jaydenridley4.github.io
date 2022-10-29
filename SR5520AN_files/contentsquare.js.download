@@ -1,0 +1,41 @@
+/*The ContentSquare platform uses custom variables to collect data from the site. These assist with page mapping and are used in Segmentation rules.*/
+
+/*ALM_2764 fix starts here*/
+(function () {
+  window._uxa = window._uxa || [];
+  try {
+    if (typeof (hpmmd.page) != 'undefined') {
+        if (typeof hpmmd.page.name != 'undefined') {  
+            window._uxa.push(['setCustomVariable', 1, 'pageName', hpmmd.page.name, 3]);              
+        }
+        if (typeof hpmmd.page.sectiontaxonomy != 'undefined') {
+            window._uxa.push(['setCustomVariable', 2, 'sectionTaxonomy', hpmmd.page.sectiontaxonomy, 3]);
+        }
+        if (typeof hpmmd.page.lifecycle != 'undefined') {
+            window._uxa.push(['setCustomVariable', 3, 'lifecycle', hpmmd.page.lifecycle, 3]);
+        }
+    }
+} catch (e){}
+try {
+    var CS_DL = _UDL.getDataLayerVar('e_pageView');
+    if (typeof (CS_DL) != 'undefined') {
+        if (typeof CS_DL.pageNameL5 != 'undefined') {  
+            window._uxa.push(['setCustomVariable', 4, 'pageNameL5', CS_DL.pageNameL5, 3]);              
+        }
+        if (typeof CS_DL.pageNameL6 != 'undefined') {
+            window._uxa.push(['setCustomVariable', 5, 'pageNameL6', CS_DL.pageNameL6, 3]);
+        }
+    }
+} catch (e){}
+  if (typeof CS_CONF === 'undefined') {
+    window._uxa.push(['setPath', window.location.pathname+window.location.hash.replace('#','?__')]);
+    var mt = document.createElement("script"); mt.type = "text/javascript"; mt.async = true;
+    mt.src = "//t.contentsquare.net/uxa/9d25aca9-e352-4895-bbbd-ccebc9786c07.js";
+    document.getElementsByTagName("head")[0].appendChild(mt);
+  }
+  else {
+    window._uxa.push(['trackPageview', window.location.pathname+window.location.hash.replace('#','?__')]);
+  }
+})();
+
+/*ALM_2764 fix ends here*/

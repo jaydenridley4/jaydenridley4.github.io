@@ -1,0 +1,92 @@
+(function () {
+
+    var current_page = window?.location?.pathname;
+    // current_page will be in format us-en/page_name
+
+    var dataMap;
+    var elements;
+    var className;
+    var attr;
+    var attributes
+
+    const getJSONData = function () {
+        fetch('/wcc-assets/content/dam/hp-wcc/libs/docs/contentsquare/CS_Elements.json')
+            .then(response => response.json())
+            .then(data => {
+                if (data.hasOwnProperty('dataMap')) {
+                    dataMap = data.dataMap;
+                    className = dataMap['config'].hasOwnProperty('class') ? dataMap['config'].class : "";
+                    attributes = dataMap['config'].hasOwnProperty('attributes') ? dataMap['config'].attributes : {};
+                    attr = Object.keys(attributes).length ? Object.keys(attributes)[0] : '';
+                }
+            })
+            .catch(err => console.log(err));
+    };
+
+    const getActualPath = function (url) {
+        let actual_path = '';
+        let path_arr = url.split('/');
+        if (path_arr.length >= 3) {
+            actual_path = path_arr[2];
+            // extracting only the main path. Since elements of sub_paths will also be part of main path elements array
+        } else {
+            actual_path = 'home';
+        }
+        return actual_path;
+    }
+
+    const getElements = function (current_page) {
+        let elements = [];
+        if (dataMap && dataMap.hasOwnProperty('pages')) {
+            let pages = dataMap['pages'];
+            let current_page_path = getActualPath(current_page);
+            let page = pages[current_page_path];
+            if (page) {
+                elements = page['elements'];
+            }
+            if(pages['all'].hasOwnProperty('elements') && pages['all']['elements'].length) {
+                elements = elements.concat(pages['all']['elements']);
+            }
+        }
+        return elements;
+    }
+
+    const maskData = function () {
+        var current_page = window?.location?.pathname;
+        elements = getElements(current_page);
+        if (elements.length) {
+            // check if the DOM is loaded for the page
+            elements.forEach(function (e) {
+                // checking if element exists
+                if ($(e).length) {
+                    // check if elements has class .anonymise, if no, add the class
+                    if (!$(e).hasClass(className)) {
+                        $(e).addClass(className);
+                    }
+
+                    // check if elements has attr data-cs=mask, if no, add the attr
+                    if (!$(e).attr(attr)) {
+                        $(e).attr(attr, attributes[attr]);
+                    }
+                }
+            });
+        }
+    }
+
+    $(document).ready(function () {
+        getJSONData();
+        window.onload = function () {
+            var bodyList = document?.querySelector("body")
+                , observer = new MutationObserver(function (mutations) {
+                    mutations.forEach(function () {
+                        maskData();
+                    });
+                });
+            var config = {
+                childList: true,
+                subtree: true
+            };
+            observer.observe(bodyList, config);
+        };
+    });
+})();

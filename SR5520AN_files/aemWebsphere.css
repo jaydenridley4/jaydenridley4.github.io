@@ -1,0 +1,39 @@
+#nebula_div_btn {
+	display: none !important
+} 
+.opt_feedback_li{
+	cursor: pointer; 
+	transform: rotate(90deg); 
+	width: 42px;
+} 
+.opt_feedback_link {
+	font-family: HPSimplifiedLight,"Open Sans",sans-serif!important;
+	font-size: 16px!important; 
+	color: #0171AD !important; 
+	height: 42px; 
+	display: inline-block !important; 
+	margin-bottom: 0px !important; 
+	white-space: nowrap !important; 
+	background: #f2f2f2;
+	transform: rotate(180deg); 
+	padding: 10px 20px !important;
+} 
+li a.opt_feedback_link:focus { 
+	text-decoration : none
+}  
+.opt_feedback_li a:hover{ 
+	text-decoration: none;
+} 
+.opt_feedback_link a:hover{ 
+	text-decoration: none;
+} 
+@media only screen and (max-width: 800px) and (min-width: 497px), only screen and (max-width: 496px) {  
+	.opt_feedback_li {
+		transform: rotate(0deg); 
+		width: 75x;
+	} 
+	.opt_feedback_link {
+		transform: rotate(0deg); 
+		width: max-content
+	} 
+}

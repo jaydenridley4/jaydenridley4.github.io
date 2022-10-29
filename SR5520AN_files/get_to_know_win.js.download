@@ -1,0 +1,28 @@
+$(document).ready(function() {
+    var toggleKnowWindowsContainer = function(categoryId) {
+        // code to show or hide based on category id
+
+        // extract comma-separated list string from hidden field
+        var categoryListString = document.getElementById("hiddenCategoryList").value;
+
+        // create category list array
+        var categoryList = categoryListString.split(",");
+
+        // loop through category list and locate category id
+        var isCategoryIdExists = false;
+        for (var i = 0; i < categoryList.length; i++) {
+            if (categoryList[i] == categoryId) {
+                isCategoryIdExists = true;
+                break;
+            };
+        };
+
+        // if category id present, display div
+        if (isCategoryIdExists == true) {
+        	$("#dvKnowWindowsContainer").show();
+        } else {
+            // else hide div
+            $("#dvKnowWindowsContainer").hide();
+        }
+    };
+})
