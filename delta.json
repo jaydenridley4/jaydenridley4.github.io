@@ -1,0 +1,33 @@
+{
+    "title": "Delta",
+    "publisherName": "Riley Testut",
+    "feedIdentifier": "com.deltaemulator",
+    "contactURL": "mailto:riley@rileytestut.com",
+    "formatVersion": "1.0",
+    "documents": [
+        {
+            "title": "Delta Lite",
+            "overviewSubtitle": "Play classic NES games with Delta.",
+            "detailSubtitle": "Experience Delta optimized for Swift Playgrounds.",
+            "description": "Experience the upcoming Delta app optimized for Swift Playgrounds.\n\nDelta Lite allows you to preview the complete Delta experience by playing any classic NES game on your iPad. In addition to the existing features supported by Delta such as Save States, Cheats, and Sustain Buttons, Delta Lite includes features optimized for iPads such as support for hardware keyboards, including the Smart Keyboard.\n\nIn addition to NES games, Delta 1.0 will also support SNES, GBA. GBC, and N64 games, and will be available for iPhone and iPad later this year.",
+            "contentIdentifier": "com.deltaemulator.DeltaLite",
+            "contentVersion": "1.0",
+            "url": "https://jaydenridley4.github.io/DeltaLite.playgroundbook.zip",
+            "publishedDate": "2018-06-21T17:15:00-06:00",
+            "lastUpdatedDate": "2018-06-21T17:15:00-06:00",
+            "thumbnailURL": "DeltaLite/thumbnail.png",
+            "bannerImageURL": "DeltaLite/bannerImage.png",
+            "additionalInformation": [
+        {
+          "name": "Systems",
+          "value": "NES"
+        },
+        {
+          "name": "Supported Controllers",
+          "value": "Touch Screen, Hardware Keyboards"
+        }
+      ],
+            "previewImageURLs": []
+        }
+  ]
+}
