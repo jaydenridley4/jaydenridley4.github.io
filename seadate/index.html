@@ -45,7 +45,7 @@
     }
 
     .seagate_date_field {
-      height: 30px;
+      height: 24px;
       font-size: 16px;
       border-radius: 6px;
       width: 120px;
@@ -54,59 +54,52 @@
       margin-right: 10px;
       text-align: center;
     }
-
-    .seagate_date_output {
-      padding: 10px;
-      font-size: 16px;
-      border-radius: 6px;
-      width: 100%;
-      margin-top: 10px;
-      border: 1px solid #ccc;
-      background-color: #f9f9f9;
-    }
+	
+	.seagate_date_output {
+    margin-top: 20px; /* Adjust the top margin as needed */
+	}
   </style>
 </head>
 <body>
   <div id="container">
     <h1>Seagate Date Code Calculator</h1>
-      <label>
-        <span>Enter Seagate date:</span>
-        <input type="number" name="date" class="seagate_date_field" size="12" pattern="[0-9]*" step="1">
-      </label>
-      <div class="seagate_date_output">Supported codes are 4 or 5 digits long.</div>
+    <label>
+      <span>Enter Seagate date:</span>
+      <input type="number" name="date" class="seagate_date_field" size="12" pattern="[0-9]*" step="1">
+    </label>
+    <div class="seagate_date_output">Supported codes are 4 or 5 digits long.</div>
   </div>
 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
   <script>
     $(function () {
-  function updateOutput(str, dateOutput) {
-    if (str.length === 4 || str.length === 5) {
-      $('.seagate_date_output').html(str + " corresponds to " + dateOutput);
-    } else {
-      $('.seagate_date_output').html(str);
-    }
-  }
+      function updateOutput(str, dateOutput) {
+        if (str.length === 4 || str.length === 5) {
+          $('.seagate_date_output').html(str + " corresponds to " + dateOutput);
+        } else {
+          $('.seagate_date_output').html(str);
+        }
+      }
 
-  $('.seagate_date_field').on('input', function () {
-    const str = $(this).val() || "";
-    const strLen = str.length;
+      $('.seagate_date_field').on('input', function () {
+        const str = $(this).val() || "";
+        const strLen = str.length;
 
-    if (strLen === 5 || strLen === 4) {
-      const yy = parseInt(str.substr(0, 2), 10);
-      const ww = parseInt(str.substr(2, strLen === 5 ? 2 : 1), 10);
-      const d = parseInt(str.substr(strLen === 5 ? 4 : 3, 1), 10);
-      const year = 1999 + yy;
-      let date = moment(new Date(year, 5, 30));
-      date.add('days', date.day()).subtract('days', 8).add('days', 7 * ww + d);
-      const out = date.format("YYYY-MM-DD");
-      updateOutput(str, out);
-    } else {
-      updateOutput("Supported codes are 4 or 5 digits long.", "");
-    }
-  });
-});
-
+        if (strLen === 5 || strLen === 4) {
+          const yy = parseInt(str.substr(0, 2), 10);
+          const ww = parseInt(str.substr(2, strLen === 5 ? 2 : 1), 10);
+          const d = parseInt(str.substr(strLen === 5 ? 4 : 3, 1), 10);
+          const year = 1999 + yy;
+          let date = moment(new Date(year, 5, 30));
+          date.add('days', date.day()).subtract('days', 8).add('days', 7 * ww + d);
+          const out = date.format("YYYY-MM-DD");
+          updateOutput(str, out);
+        } else {
+          updateOutput("Supported codes are 4 or 5 digits long.", "");
+        }
+      });
+    });
   </script>
 </body>
 </html>
