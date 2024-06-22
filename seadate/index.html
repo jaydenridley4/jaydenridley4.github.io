@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seagate Date Code Calculator</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      animation: backgroundAnimation 45s linear infinite;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #FFC299; /* Initial background color */
+    }
+
+    @keyframes backgroundAnimation {
+      0% {
+        background-color: #FFC299; /* Pastel Orange */
+      }
+      20% {
+        background-color: #FFE4B3; /* Pastel Yellow */
+      }
+      40% {
+        background-color: #B3E5FF; /* Pastel Blue */
+      }
+      60% {
+        background-color: #C9E5FF; /* Pastel Sky Blue */
+      }
+      80% {
+        background-color: #FFD9F2; /* Pastel Pink */
+      }
+      100% {
+        background-color: #FFC299; /* Back to Pastel Orange */
+      }
+    }
+
+    #container {
+      width: 90%;
+      max-width: 600px;
+      text-align: center;
+    }
+
+    .seagate_date_field {
+      height: 30px;
+      font-size: 16px;
+      border-radius: 6px;
+      width: 120px;
+      padding: 5px;
+      border: 1px solid #ccc;
+      margin-right: 10px;
+      text-align: center;
+    }
+
+    .seagate_date_output {
+      padding: 10px;
+      font-size: 16px;
+      border-radius: 6px;
+      width: 100%;
+      margin-top: 10px;
+      border: 1px solid #ccc;
+      background-color: #f9f9f9;
+    }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <h1>Seagate Date Code Calculator</h1>
+      <label>
+        <span>Enter Seagate date:</span>
+        <input type="number" name="date" class="seagate_date_field" size="12" pattern="[0-9]*" step="1">
+      </label>
+      <div class="seagate_date_output">Supported codes are 4 or 5 digits long.</div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+  <script>
+    $(function () {
+  function updateOutput(str, dateOutput) {
+    if (str.length === 4 || str.length === 5) {
+      $('.seagate_date_output').html(str + " corresponds to " + dateOutput);
+    } else {
+      $('.seagate_date_output').html(str);
+    }
+  }
+
+  $('.seagate_date_field').on('input', function () {
+    const str = $(this).val() || "";
+    const strLen = str.length;
+
+    if (strLen === 5 || strLen === 4) {
+      const yy = parseInt(str.substr(0, 2), 10);
+      const ww = parseInt(str.substr(2, strLen === 5 ? 2 : 1), 10);
+      const d = parseInt(str.substr(strLen === 5 ? 4 : 3, 1), 10);
+      const year = 1999 + yy;
+      let date = moment(new Date(year, 5, 30));
+      date.add('days', date.day()).subtract('days', 8).add('days', 7 * ww + d);
+      const out = date.format("YYYY-MM-DD");
+      updateOutput(str, out);
+    } else {
+      updateOutput("Supported codes are 4 or 5 digits long.", "");
+    }
+  });
+});
+
+  </script>
+</body>
+</html>
