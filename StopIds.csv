@@ -1,0 +1,363 @@
+StopId,Station,Platform
+600000,Bowen Hills,2
+600002,Bowen Hills,3
+600003,Exhibition,2
+600004,Exhibition,3
+600005,Bowen Hills,1
+600006,South Bank,1
+600007,Bowen Hills,4
+600010,Fortitude Valley,3
+600011,Fortitude Valley,4
+600012,South Brisbane,1
+600013,Fortitude Valley,2
+600014,Fortitude Valley,1
+600016,Central,3
+600017,Central,2
+600018,Central,1
+600019,Central,5
+600020,Central,4
+600024,Central,6
+600028,Roma Street,7
+600029,Roma Street,8
+600030,Roma Street,6
+600033,Roma Street,3
+600034,Roma Street,5
+600036,Roma Street,4
+600038,Roma Street,9
+600051,Dutton Park,1
+600052,Fairfield,1
+600053,Yeronga,1
+600054,Yeerongpilly,2
+600085,Boggo Road,1
+600087,Springfield,2
+600088,Springfield,1
+600089,Springfield Central,1
+600090,Springfield Central,2
+600117,Varsity Lakes,2
+600118,Robina,1
+600119,Helensvale,1
+600120,Nerang,2
+600185,Nerang,1
+600186,South Brisbane,2
+600187,South Brisbane,3
+600188,South Bank,2
+600189,South Bank,3
+600190,Boggo Road,2
+600191,Boggo Road,3
+600192,Boggo Road,4
+600193,Dutton Park,2
+600194,Fairfield,2
+600195,Yeronga,2
+600196,Yeerongpilly,3
+600197,Moorooka,1
+600198,Moorooka,2
+600199,Rocklea,1
+600200,Rocklea,2
+600203,Coopers Plains,1
+600204,Coopers Plains,2
+600205,Coopers Plains,3
+600206,Banoon,1
+600207,Banoon,2
+600208,Banoon,3
+600209,Sunnybank,1
+600210,Sunnybank,2
+600211,Sunnybank,3
+600212,Altandi,1
+600213,Altandi,2
+600214,Altandi,3
+600215,Runcorn,1
+600216,Runcorn,2
+600217,Runcorn,3
+600218,Fruitgrove,1
+600219,Fruitgrove,2
+600220,Fruitgrove,3
+600221,Kuraby,1
+600222,Kuraby,2
+600223,Kuraby,3
+600224,Trinder Park,1
+600225,Trinder Park,2
+600226,Woodridge,1
+600227,Woodridge,2
+600228,Kingston,1
+600229,Kingston,2
+600230,Loganlea,1
+600231,Loganlea,2
+600232,Bethania,1
+600233,Bethania,2
+600234,Bethania,3
+600235,Edens Landing,1
+600236,Edens Landing,2
+600237,Holmview,1
+600238,Holmview,2
+600239,Beenleigh,1
+600240,Beenleigh,2
+600241,Ormeau,1
+600242,Ormeau,2
+600243,Coomera,1
+600244,Coomera,2
+600245,Helensvale,2
+600246,Robina,2
+600247,Varsity Lakes,1
+600248,Buranda,1
+600249,Buranda,2
+600250,Coorparoo,2
+600251,Coorparoo,1
+600252,Norman Park,1
+600253,Norman Park,2
+600254,Morningside,1
+600255,Morningside,2
+600256,Cannon Hill,1
+600257,Cannon Hill,2
+600258,Murarrie,2
+600259,Murarrie,1
+600260,Hemmant,1
+600261,Hemmant,2
+600262,Lindum,2
+600263,Lindum,1
+600264,Wynnum North,2
+600265,Wynnum North,1
+600266,Wynnum,1
+600267,Wynnum,2
+600269,Lota,1
+600270,Lota,2
+600271,Thorneside,1
+600272,Thorneside,2
+600273,Birkdale,1
+600274,Wellington Point,2
+600275,Wellington Point,1
+600276,Ormiston,1
+600277,Cleveland,1
+600278,Cleveland,2
+600279,Milton,1
+600280,Milton,2
+600281,Milton,3
+600282,Milton,4
+600283,Auchenflower,1
+600284,Auchenflower,2
+600285,Auchenflower,3
+600286,Auchenflower,4
+600287,Toowong,1
+600288,Toowong,2
+600289,Toowong,3
+600290,Toowong,4
+600291,Taringa,1
+600292,Taringa,2
+600293,Taringa,3
+600294,Taringa,4
+600295,Indooroopilly,1
+600296,Indooroopilly,2
+600297,Indooroopilly,3
+600298,Indooroopilly,4
+600299,Chelmer,1
+600300,Chelmer,2
+600301,Chelmer,3
+600302,Chelmer,4
+600303,Graceville,1
+600304,Graceville,2
+600305,Graceville,3
+600306,Graceville,4
+600309,Sherwood,1
+600310,Sherwood,2
+600311,Sherwood,3
+600312,Sherwood,4
+600313,Corinda,1
+600314,Corinda,2
+600316,Corinda,4
+600317,Corinda,5
+600318,Oxley,1
+600319,Oxley,2
+600320,Oxley,3
+600321,Darra,1
+600322,Darra,2
+600323,Darra,3
+600324,Darra,4
+600325,Richlands,1
+600326,Richlands,2
+600327,Wacol,1
+600328,Wacol,2
+600329,Gailes,1
+600330,Gailes,2
+600331,Goodna,1
+600332,Goodna,2
+600333,Redbank,1
+600334,Redbank,2
+600335,Riverview,1
+600336,Riverview,2
+600337,Dinmore,1
+600338,Dinmore,2
+600339,Ebbw Vale,1
+600340,Ebbw Vale,2
+600341,Bundamba,1
+600342,Bundamba,2
+600343,Booval,1
+600344,Booval,2
+600345,East Ipswich,1
+600346,East Ipswich,2
+600347,Ipswich,1
+600348,Ipswich,2
+600349,Ipswich,3
+600350,Ipswich,4
+600351,Thomas Street,1
+600352,Thomas Street,2
+600353,Wulkuraka,1
+600354,Wulkuraka,2
+600355,Karrabin,1
+600356,Karrabin,2
+600358,Walloon,1
+600359,Walloon,2
+600360,Thagoona,1
+600361,Thagoona,2
+600362,Rosewood,1
+600363,Rosewood,2
+600365,Albion,1
+600366,Albion,2
+600367,Albion,3
+600368,Albion,4
+600369,Windsor,1
+600370,Windsor,2
+600371,Wilston,1
+600372,Wilston,2
+600373,Newmarket,1
+600374,Newmarket,2
+600375,Alderley,2
+600376,Alderley,1
+600377,Enoggera,1
+600378,Enoggera,2
+600379,Gaythorne,1
+600380,Gaythorne,2
+600381,Mitchelton,1
+600382,Mitchelton,2
+600383,Oxford Park,1
+600384,Oxford Park,2
+600385,Grovely,1
+600386,Grovely,2
+600387,Keperra,1
+600388,Keperra,2
+600389,Ferny Grove,1
+600390,Ferny Grove,2
+600391,Wooloowin,1
+600392,Wooloowin,2
+600393,Wooloowin,3
+600394,Wooloowin,4
+600395,Eagle Junction,1
+600396,Eagle Junction,2
+600397,Toombul,1
+600398,Toombul,2
+600399,Toombul,3
+600400,Toombul,4
+600401,Eagle Junction,3
+600402,Eagle Junction,4
+600403,Nundah,1
+600404,Nundah,2
+600405,Nundah,3
+600406,Nundah,4
+600407,Northgate,1
+600408,Northgate,2
+600409,Northgate,3
+600410,Northgate,4
+600411,Bindha,1
+600412,Bindha,2
+600413,Banyo,1
+600414,Banyo,2
+600415,Nudgee,1
+600416,Nudgee,2
+600417,Boondall,1
+600418,Boondall,2
+600419,North Boondall,1
+600420,North Boondall,2
+600421,Deagon,1
+600422,Deagon,2
+600423,Sandgate,2
+600424,Sandgate,1
+600425,Shorncliffe,1
+600426,International Airport,1
+600427,International Airport,2
+600428,Domestic Airport,1
+600429,Domestic Airport,2
+600430,Clayfield,1
+600432,Hendra,1
+600433,Ascot,1
+600435,Doomben,1
+600437,Virginia,1
+600438,Virginia,2
+600439,Virginia,3
+600440,Sunshine,1
+600441,Sunshine,2
+600442,Sunshine,3
+600443,Geebung,1
+600444,Geebung,2
+600445,Geebung,3
+600446,Zillmere,1
+600447,Zillmere,2
+600448,Zillmere,3
+600449,Carseldine,1
+600450,Carseldine,2
+600451,Carseldine,3
+600452,Bald Hills,1
+600453,Bald Hills,2
+600454,Bald Hills,3
+600455,Strathpine,1
+600456,Strathpine,2
+600457,Strathpine,3
+600458,Bray Park,1
+600459,Bray Park,2
+600460,Bray Park,3
+600461,Lawnton,1
+600462,Lawnton,2
+600463,Lawnton,3
+600464,Petrie,1
+600465,Petrie,2
+600466,Petrie,3
+600467,Dakabin,1
+600468,Dakabin,2
+600469,Narangba,1
+600470,Narangba,2
+600471,Narangba,3
+600472,Burpengary,1
+600473,Burpengary,2
+600474,Morayfield,1
+600475,Morayfield,2
+600476,Caboolture,1
+600477,Caboolture,2
+600478,Caboolture,3
+600479,Elimbah,1
+600480,Elimbah,2
+600481,Beerburrum,2
+600482,Beerburrum,1
+600483,Glass House Mountains,2
+600484,Glass House Mountains,1
+600485,Beerwah,1
+600486,Beerwah,2
+600487,Landsborough,1
+600488,Landsborough,2
+600489,Mooloolah,1
+600490,Eudlo,1
+600491,Palmwoods,1
+600492,Woombye,1
+600493,Nambour,1
+600494,Yandina,1
+600495,Eumundi,1
+600496,Cooroy,1
+600497,Pomona,1
+600498,Cooran,1
+600499,Traveston,1
+600500,Gympie North,1
+600627,Petrie,4
+600628,Wynnum Central,1
+600629,Wynnum Central,2
+600630,Manly,1
+600631,Manly,2
+600632,Nambour,2
+600633,Kippa-Ring,1
+600634,Kippa-Ring,2
+600635,Rothwell,1
+600636,Rothwell,2
+600637,Mango Hill East,1
+600638,Mango Hill East,2
+600639,Mango Hill,1
+600640,Mango Hill,2
+600641,Murrumba Downs,1
+600642,Murrumba Downs,2
+600643,Kallangur,1
+600644,Kallangur,2
+600645,Petrie,5"}
