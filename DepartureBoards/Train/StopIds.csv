@@ -22,6 +22,7 @@ StopId,Station,Platform
 600030,Roma Street,6
 600033,Roma Street,3
 600034,Roma Street,5
+600035,Roma Street,10
 600036,Roma Street,4
 600038,Roma Street,9
 600051,Dutton Park,1
@@ -361,5 +362,6 @@ StopId,Station,Platform
 600643,Kallangur,1
 600644,Kallangur,2
 600645,Petrie,5
+
 600691,Pimpama,1
 600692,Pimpama,2
