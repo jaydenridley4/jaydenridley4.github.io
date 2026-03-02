@@ -2,13 +2,13 @@ Route,Destination,Colour,Express
 BDBN,Banoon,#625318,Exp
 BDBR,City,#625318, 
 BDVL,Gold Coast,#625318,Exp
-BNBR,City,#7E170E, 
+BNBR,City,#7E170E,Exp
 BNBD,Airport,#625318,Exp
-BNFG,Ferny Grove,#7E170E, 
-BNSH,Shorncliffe,#00467F, 
-BNVL,Varsity Lakes,#625318, 
+BNFG,Ferny Grove,#7E170E,Exp
+BNSH,Shorncliffe,#00467F,Exp
+BNVL,Varsity Lakes,#625318,Exp
 BRBD,Airport,#625318, 
-BRBN,Beenleigh,#7E170E, 
+BRBN,Beenleigh,#7E170E,Exp
 BRBR,City,#595959, 
 BRCA,Caboolture,#2E6B1B,Exp
 BRCL,Cleveland,#0000C4, 
@@ -30,12 +30,12 @@ CASP,Springfield Central,#3376BD,Exp
 CLBR,City,#0000C4, 
 CLDB,Doomben,#722E69, 
 CLSH,Shorncliffe,#0000C4, 
-DBBN,Beenleigh,#7E170E, 
+DBBN,Beenleigh,#7E170E,Exp
 DBBR,City,#722E69, 
 DBCL,Cleveland,#0000C4, 
 EXBR,City,#595959, 
 EXEX,Exhibition,#595959, 
-FGBN,Beenleigh,#7E170E, 
+FGBN,Beenleigh,#7E170E,Exp
 FGBR,City,#7E170E, 
 GYBR,City,#2E6B1B,Exp
 IPBR,City,#2E6B1B, 
@@ -56,7 +56,7 @@ RWCA,Caboolture,#2E6B1B,Exp
 RWIP,Ipswich,#2E6B1B, 
 RWNA,Nambour,#2E6B1B,Exp
 RWRP,Redcliffe,#3376BD,Exp
-SHBN,City,#00467F, 
+SHBN,City,#00467F,Exp
 SHBR,City,#0000C4, 
 SHCA,Caboolture,#00447C,Exp
 SHCL,Cleveland,#0000C4, 
@@ -66,16 +66,16 @@ SPCA,Caboolture,#2E6B1B,Exp
 SPNA,Nambour,#2E6B1B,Exp
 SPRP,Redcliffe,#3376BD,Exp
 VLBD,Airport,#625318,Exp
-VLBN,Banoon,#0000C4, 
+VLBN,Banoon,#0000C4,Exp
 VLBR,City,#625318,Exp
 VLDB,Doomben,#722E69,Exp
 VLVL,Varsity Lakes,#00447C, 
-
+,,,
 BDCL,Cleveland,#0000C4, 
 FGCL,Ferny Grove,#0000C4, 
 CLBD,Airport,#625318, 
 CLFG,Ferny Grove,#7E170E, 
-
+,,,
 Below data,is placeholders,to avoid crashing,the app
 BDBD,Unknown,#595959, 
 BDFG,Unknown,#595959, 
