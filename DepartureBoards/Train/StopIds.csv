@@ -54,6 +54,8 @@ StopId,Station,Platform
 600198,Moorooka,2
 600199,Rocklea,1
 600200,Rocklea,2
+600201,Salisbury,1
+600202,Salisbury,2
 600203,Coopers Plains,1
 600204,Coopers Plains,2
 600205,Coopers Plains,3
@@ -365,3 +367,4 @@ StopId,Station,Platform
 
 600691,Pimpama,1
 600692,Pimpama,2
+
