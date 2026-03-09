@@ -9,6 +9,9 @@ While you may have success launching on Windows 7, it's half broken so take that
 
 Haven't tested on Arm64 so let me know how well it works. Should be fairly problem free if Windows translation is good enough? Oh, you're absolutely not getting this working on Windows RT or 15035, I've tried, good luck 😅
 
+## How to use
+Open the executable, easy as that. To set your own stop IDs, double click the text that says "Service". To change the board's title, double click the title. You'll find quite a few things you can double click in this software.
+
 ## Download
 From the [Releases page](https://github.com/jaydenridley4/Translink-Passenger-Information-Displays/releases/tag/latest) of the GitHub repository.  
 Source is available on the [GitHub repository](https://github.com/jaydenridley4/Translink-Passenger-Information-Displays) itself.
@@ -30,3 +33,4 @@ Different keyboard combinations control different aspects of the software as you
 |`Alt+R`				 |Refresh													|
 |`Alt+N`				 |Toggle visibility of the NGR marker						|
 |`Alt+F`				 |Enter a broken full screen mode (960x540 resolution, lol)	|
+
