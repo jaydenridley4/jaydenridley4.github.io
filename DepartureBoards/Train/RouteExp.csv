@@ -40,6 +40,7 @@ FGBR,City,#7E170E,
 GYBR,City,#2E6B1B,Exp
 IPBR,City,#2E6B1B, 
 IPCA,Caboolture,#2E6B1B,Exp
+IPIP,Ipswich,#2E6B1B, 
 IPNA,Nambour,#2E6B1B,Exp
 IPRP,Redcliffe,#3376BD, 
 IPRW,Rosewood,#2E6B1B, 
@@ -209,7 +210,6 @@ IPCL,Unknown,#595959,
 IPDB,Unknown,#595959, 
 IPEX,Unknown,#595959, 
 IPGY,Unknown,#595959, 
-IPIP,Unknown,#595959, 
 IPSP,Unknown,#595959, 
 NABD,Unknown,#595959, 
 NABN,Unknown,#595959, 
