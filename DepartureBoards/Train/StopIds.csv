@@ -29,7 +29,7 @@ StopId,Station,Platform
 600052,Fairfield,1
 600053,Yeronga,1
 600054,Yeerongpilly,2
-600085,Boggo Road,1
+600085,Boggo Road,8
 600087,Springfield,2
 600088,Springfield,1
 600089,Springfield Central,1
@@ -43,9 +43,9 @@ StopId,Station,Platform
 600187,South Brisbane,3
 600188,South Bank,2
 600189,South Bank,3
-600190,Boggo Road,2
-600191,Boggo Road,3
-600192,Boggo Road,4
+600190,Boggo Road,7
+600191,Boggo Road,6
+600192,Boggo Road,5
 600193,Dutton Park,2
 600194,Fairfield,2
 600195,Yeronga,2
