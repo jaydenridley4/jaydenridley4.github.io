@@ -32,5 +32,5 @@ Different keyboard combinations control different aspects of the software as you
 |`Alt+Q`				 |Toggle between departure list and stop list				|
 |`Alt+R`				 |Refresh													|
 |`Alt+N`				 |Toggle visibility of the NGR marker						|
-|`Alt+F`				 |Enter a broken full screen mode (960x540 resolution, lol)	|
+|`Alt+F`				 |Enter a full screen mode 	|
 
