@@ -13,7 +13,7 @@ Haven't tested on Arm64 so let me know how well it works. Should be fairly probl
 Open the executable, easy as that. To set your own stop IDs, double click the text that says "Service". To change the board's title, double click the title. You'll find quite a few things you can double click in this software.
 
 ## Download
-From the [Releases page](https://github.com/jaydenridley4/Translink-Passenger-Information-Displays/releases/tag/latest) of the GitHub repository.  
+From the [Releases page](https://github.com/jaydenridley4/Translink-Passenger-Information-Displays/releases) of the GitHub repository.  
 Source is available on the [GitHub repository](https://github.com/jaydenridley4/Translink-Passenger-Information-Displays) itself.
 
 ## Screenshots
